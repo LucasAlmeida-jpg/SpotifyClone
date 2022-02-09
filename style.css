@@ -9,7 +9,7 @@ body {
 }
 
 .button-primary {
-  background: #1db954;
+  background: black;
   color: whitesmoke;
   text-transform: uppercase;
   padding: 14px 60px;
@@ -17,6 +17,7 @@ body {
   border: none;
   margin-top: 40px;
   letter-spacing: 1px;
+  cursor: pointer;
 }
 
 #navbar {
@@ -77,13 +78,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #1db954;
+  color: white;
 }
 
 #container-info .container-middle h2 {
   font-size: 8rem;
   font-weight: bolder;
 }
+
 #container-info .container-middle .all {
   font-size: 8rem;
   font-weight: bolder;
@@ -104,6 +106,7 @@ body {
 #footer {
   background: black;
   color: white;
+  padding-bottom: 60px;
 }
 
 #footer .footer-info {
@@ -143,4 +146,36 @@ body {
 .footer-info {
   display: flex;
   justify-content: space-between;
+}
+
+.footer-last-info {
+  display: flex;
+  list-style: none;
+  font-size: 12px;
+  margin-left: 200px;
+  gap: 20px;
+  color: grey;
+  cursor: pointer;
+}
+
+.footer-last-info li:hover {
+  color: #1db954;
+}
+
+.country {
+  display: flex;
+  font-size: 12px;
+}
+.worldimg {
+  height: 12px;
+  width: auto;
+  display: inline-block;
+  margin-right: 2px;
+}
+.country:hover {
+  color: #1db954;
+}
+.rights {
+  font-size: 12px;
+  margin-left: 520px;
 }
