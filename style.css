@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.button-primary {
+  background: #1db954;
+  color: whitesmoke;
+  text-transform: uppercase;
+  padding: 14px 60px;
+  border-radius: 30px;
+  border: none;
+  margin-top: 40px;
+  letter-spacing: 1px;
+}
+
+#navbar {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+#navbar .navbar-container {
+  width: 76%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+#navbar .navbar-container .logo {
+  width: auto;
+  height: 38px;
+  cursor: pointer;
+}
+
+#navbar .navbar-container ul {
+  display: flex;
+  list-style: none;
+  font-weight: bold;
+}
+
+#navbar .navbar-container ul li {
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+#navbar .navbar-container ul li:hover {
+  color: #1ed760;
+}
+
+#navbar .navbar-container ul li:nth-child(3) {
+  border-right: 2px solid white;
+}
+
+#container-info {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('assets/pexels-aleksandar-pasaric-2068411.jpg') center
+    center/cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: color;
+}
+
+#container-info .container-middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #1db954;
+}
+
+#container-info .container-middle h2 {
+  font-size: 8rem;
+  font-weight: bolder;
+}
+#container-info .container-middle .all {
+  font-size: 8rem;
+  font-weight: bolder;
+}
+
+#container-info .container-middle p {
+  margin: 15px 0;
+  font-size: 1.1rem;
+  font-size: bold;
+}
+
+.logo {
+  width: auto;
+  height: 38px;
+  cursor: pointer;
+}
+
+#footer {
+  background: black;
+  color: white;
+}
+
+#footer .footer-info {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  padding: 80px 0;
+}
+
+#footer .footer-info .menu-ul {
+  margin: 0 40px;
+  list-style: none;
+  cursor: pointer;
+}
+#footer .footer-info .menu-ul li:hover {
+  color: #1db954;
+}
+
+#footer .footer-info .menu-ul p {
+  text-transform: uppercase;
+  color: grey;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+#footer .footer-info .menu-ul .item {
+  margin: 25px 0;
+}
+
+.social-media img {
+  width: 1.7rem;
+  background-color: rgb(97, 84, 84);
+  border-radius: 50%;
+  margin: 0 20px;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
